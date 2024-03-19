@@ -7,7 +7,7 @@ import Hero from "./components/Hero/Hero";
 
 export default function Home() {
   return (
-    <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll" >
+    <main className="bg-[#1F2235] text-white h-screen snap-y snap-mandatory overflow-scroll" >
      <title>Kelly Rivas's Portfolio</title>
      <Header/>
 

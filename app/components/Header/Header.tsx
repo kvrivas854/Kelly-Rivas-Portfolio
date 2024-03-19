@@ -24,12 +24,12 @@ export default function Header({}: Props) {
       >
             <SocialIcon 
               url="https://www.linkedin.com/in/kelly-rivas-37896a76/" 
-              fgColor="gray" 
+              fgColor="#9899A8" 
               bgColor="transparent" 
             />
             <SocialIcon 
               url="https://github.com/kvrivas854" 
-              fgColor="gray" 
+              fgColor="#9899A8" 
               bgColor="transparent"
             />
         </motion.div>
@@ -43,14 +43,14 @@ export default function Header({}: Props) {
           x: 0,
           opacity: 1,
           scale: 1
-        }}className="flex flex-row items-center text-gray-300 cursor-pointer">
+        }}className="flex flex-row items-center #9899A8 cursor-pointer">
           <SocialIcon 
           className="cursor-pointer"
           network="email"
           fgColor="gray" 
           bgColor="transparent"
           />
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Get In Touch</p>
+          <p className="uppercase hidden md:inline-flex text-sm #9899A8">Get In Touch</p>
         </motion.div>
     </header>
   )
